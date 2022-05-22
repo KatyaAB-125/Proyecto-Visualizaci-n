@@ -7,9 +7,9 @@ Highcharts | TODO
 */
 
 
-// $.getJSON('https://cdn.rawgit.com/ZNClub-PA-ML-AI/Sentiment-analysis-using-Business-News/95e16a9b/REL_score_open.json', function(data) {
+// $.getJSON('https://cdn.rawgit.com/sentiment-analysis-using-Business-News/95e16a9b/REL_score_open.json', function(data) {
 	
-$.getJSON('https://raw.githubusercontent.com/ZNClub-PA-ML-AI/Sentiment-analysis-using-Business-News/master/data/json/NSE-REL.json', 
+$.getJSON('https://raw.githubusercontent.com/Sentiment-analysis-using-Business-News/master/data/json/NSE-REL.json', 
 	function(data) {	
   var map = data.score;
   var response=[];

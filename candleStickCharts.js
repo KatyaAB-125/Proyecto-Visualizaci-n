@@ -1,7 +1,7 @@
 
 var singleStockCandlestickVolumneSliderChart = function(){
 
-  $.getJSON('https://cdn.rawgit.com/ZNClub-PA-ML-AI/Sentiment-analysis-using-Business-News/3f288088/NSE-RELIANCE.json', function(data) {
+  $.getJSON('https://cdn.rawgit.com/Sentiment-analysis-using-Business-News/3f288088/NSE-RELIANCE.json', function(data) {
     var open = data['Open'];
     var high = data['High'];
     var low = data['Low'];
